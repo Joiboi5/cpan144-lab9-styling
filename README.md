@@ -35,7 +35,6 @@ This project demonstrates styling techniques in Next.js using Tailwind CSS utili
 ## Screenshots
 
 ![Card Component](screenshots/card-screenshot.png)
-![VS Code](screenshots/vscode-screenshot.png)
 
 ## Tailwind Classes Used
 
