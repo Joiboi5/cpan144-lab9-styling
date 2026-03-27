@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CPAN 144 - Lab 9: Styling in Next.js
 
-## Getting Started
+## Student Information
 
-First, run the development server:
+- **Name**: MD Manwer Islam Joy
+- **Student ID**: n01741970
+- **Course**: CPAN 144
+- **Lab**: Lab 9 - Styling with Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project demonstrates styling techniques in Next.js using Tailwind CSS utility classes. It features a responsive card component with an image, title, description, and interactive button.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- White background card with rounded corners
+- Shadow effect
+- Padding and margins
+- Blue button with hover effect
+- Responsive design
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 14
+- React
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open http://localhost:3000
 
-## Deploy on Vercel
+## Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Card Component](screenshots/card-screenshot.png)
+![VS Code](screenshots/vscode-screenshot.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tailwind Classes Used
+
+- **Card Container**: `bg-white rounded-lg shadow-lg p-6 m-4 max-w-sm`
+- **Image**: `w-full h-48 object-cover rounded-md mb-4`
+- **Title**: `text-2xl font-bold text-gray-800 mb-2`
+- **Description**: `text-gray-600 mb-4`
+- **Button**: `bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300`
